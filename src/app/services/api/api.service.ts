@@ -9,7 +9,7 @@ import {MovieI} from '../../Models/movie.interface';
 })
 export class ApiService {
 
-  url:string = "http://localhost:3000/"
+  url:string = "https://selenium-87556.firebaseapp.com/"
 
   constructor(private http:HttpClient) { }
 

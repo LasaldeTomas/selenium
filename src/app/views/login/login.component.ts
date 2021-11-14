@@ -19,7 +19,7 @@ export class LoginComponent implements OnInit {
   }
 
   onLogin(form: any){
-    window.location.href = 'http://localhost:4200/list'
+    window.location.href = 'https://selenium-87556.firebaseapp.com/list'
   }
   
 }
