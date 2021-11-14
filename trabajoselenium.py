@@ -32,7 +32,7 @@ def run_session(desired_cap):
   driver.find_element_by_id("salas").click()
   driver.back()
   driver.find_element_by_id("opiniones").click()
-  driver.find_element_by_id("Textarea1")send_keys("gran pelicula")
+  driver.find_element_by_id("Textarea1").send_keys("gran pelicula")
   driver.find_element_by_id("Input1").send_keys("lasa@gmail.com")
   driver.find_element_by_id("enviaropinion").click()
   driver.back()
