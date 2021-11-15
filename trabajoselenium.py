@@ -23,7 +23,6 @@ caps=[{
 def run_session(desired_cap):
   driver = webdriver.Remote(command_executor='https://lasa_Av6qgI:gRe8qF5mfT1ej92Gw8vu@hub-cloud.browserstack.com/wd/hub', desired_capabilities=desired_cap)
   driver.get("https://selenium-87556.firebaseapp.com/")
-  driver.manage().window().maximize()
   driver.find_element_by_id("login").send_keys("lasa")
   driver.find_element_by_id("password").send_keys("1111")
   time.sleep(1)
